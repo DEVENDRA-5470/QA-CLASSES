@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background:linear-gradient(90deg,rgba(1, 174, 1, 0.352),rgba(255, 166, 0, 0.455));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+nav .menu ul li{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+nav .menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+
+
+.btn{
+    background-color: red;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px 4px rgba(128, 128, 128, 0.246);
+}
+
+nav .menu ul li a:hover{
+    background-color: red;
+    padding: 10px;
+    transition: 0.5s all;
+}
+
+nav .logo img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+nav .logo {
+display: flex;
+align-items: center;
+font-size: 1.5em;
+};
+

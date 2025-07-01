@@ -1,0 +1,36 @@
+A QA without HTML/CSS/JS are knowledge is like a doctor
+without anatomy knowledge.
+you can still test , but you won,t be accurate,efficient or deeply insightful.
+
+Why HTML,CSS AND JS are important for Software testing QA:
+
+1.Better Mannual & Automation Testing.
+2.Accurate Bug Reporting.
+3.Write strong Automation script.
+4.Work well with Developer teams.
+
+
+
+CSS-TOPICS
+selectors : #id,.class,tag,group selectors  p,a,h1
+pseudo elements : hover
+pseudo classes :
+combinators : Descendant(.box p) ,child (>) , adjecent(+) ,general sibling(~)
+attribute selectors : 
+
+TEXT
+Bg
+border
+hover
+opacity
+visibility
+transition
+image
+flex grid block inline
+float left right
+positions
+box model : margin padding
+
+
+
+
