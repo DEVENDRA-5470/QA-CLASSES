@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>This is heading-1</h1>
+    <h1>This is heading-2</h1>
+    <h1>This is heading-3</h1>
+    <h1>This is heading-4</h1>
+    <h1>This is heading-5</h1>
+    <h2>This is heading-5</h2>
+
+
+    <script>
+        // alert("this is js block")
+        let my_headings=document.getElementsByTagName('h1')
+        console.log(my_headings)
+        let size=my_headings.length;
+        for (let i=0 ; i<size ; i++){
+            if (i%2==0){
+                my_headings[i].innerHTML="i am Even"
+                my_headings[i].style.color="red"
+            }
+            else{
+                my_headings[i].innerHTML="i am odd"
+                my_headings[i].style.color="green"
+            }
+        }
+    </script>
+</body>
+</html>
