@@ -94,12 +94,105 @@
 //     console.log(stu_marks[i])
 // }
 
+// let stu_marks=[45,89,55,89,39,53,68]
+// let first=stu_marks[0]
+// let last=stu_marks[stu_marks.length-1];
+// stu_marks[0]=last;
+// stu_marks[stu_marks.length-1]=first;
+// console.log(stu_marks)
+
+// Array built-in methods
+ // push() : add element at last of the array.
+// let stu_marks=[45,89,55,89,39,53,68]
+// stu_marks.push([7879898,8,'a'])
+// console.log(stu_marks)
+
+// unshift() : add element at starting of the array.
+// let stu_marks=[45,89,55,89,39,53,68]
+// stu_marks.unshift(889889)
+// console.log(stu_marks)
+
+
+// shift() : remove element at the startring from the array.
+// let stu_marks=[45,89,55,89,39,53,68]
+// let out=stu_marks.shift()
+// console.log(stu_marks)
+// console.log(out)
+
+// pop() : remove element at the end from the array.
+// let stu_marks=[45,89,55,89,39,53,68]
+// let out=stu_marks.pop()
+// console.log(stu_marks)
+// console.log(out)
+
+// includes() :Check availability of element present the array.
+// let stu_marks=[45,89,55,89,39,53,68]
+// let out=stu_marks.includes(98)
+// console.log(out)
+
+// reverse() : reverse the array.
+// let stu_marks=[45,89,55,89,39,53,68]
+// let out=stu_marks.reverse()
+// console.log(out)
+
+// indexOf():
+// let stu_marks=[45,89,55,89,39,53,68,89,78,55,89]
+// let out=stu_marks.indexOf(89,4)
+// console.log(out)
+
+// lastindexOf()
+// let stu_marks=[45,89,55,89,39,53,68,89,78,55,89]
+// let out=stu_marks.lastIndexOf(55)
+// console.log(out)
+
+// at():
+// let stu_marks=[45,89,55,89,39,53,68,89,78,55,89]
+// let out=stu_marks.at(4)
+// console.log(out)
+
+// concat()
+// let stu_marks=[45,89,55,89,39,53,68,8,78,55,89]
+// let stu_new_marks=[45,89,55,89,39,53,68,89,78,55,89]
+// let res=stu_marks.concat(stu_new_marks);
+// console.log(res)
+
+// sort()
+// let stu_marks=[45,89,55,89,39,53,68,8,78,55,89]
+// let res=stu_marks.sort();
+// console.log(res)
+
+
+// slice(start,end):Return new sub array.
+// let stu_marks=[45,89,55,89,39,53,68,8,78,55,89]
+// let res=stu_marks.slice(0,-3)
+// console.log(res)
+
+// copyWithin()
+// let stu_marks=[10,20,30,40,50,60]
+// let res=stu_marks.copyWithin(3)
+// console.log(res)
+
+
+// Filter()
+// let stu_marks=[10,20,30,40,50,60]
+// function callback(a){
+//     return a>30
+// }
+// let res=stu_marks.filter(callback)
+// console.log(res)
+
+// fill()
+// let stu_marks=[10,20,30,40,50,60]
+// let res=stu_marks.fill("vishesh",3)
+// console.log(res)
+
+// splice()
+
+
+// [2 x 1 =2 ,2 x 2 = 4]
 
 
 
 
-
-
-// Array traversing
 
 
