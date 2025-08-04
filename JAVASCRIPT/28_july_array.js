@@ -157,8 +157,12 @@
 // console.log(res)
 
 // sort()
-// let stu_marks=[45,89,55,89,39,53,68,8,78,55,89]
+// let stu_marks=[45,89,55,89,39,53,68,18,78,55,89]
 // let res=stu_marks.sort();
+// console.log(res)
+
+// let stu_marks=[45,89,55,89,39,53,68,18,78,55,89]
+// let res=stu_marks.sort((a,b)=>b-a);
 // console.log(res)
 
 
@@ -190,8 +194,75 @@
 
 
 // [2 x 1 =2 ,2 x 2 = 4]
+// let data = require('prompt-sync')();
+// let num=data("Enter you data : ")
+// let my_arr=[];
+// for (let i=1; i<=10 ;i++){
+//     my_arr.push(`${num} x ${i} = ${num*i}`)
+// }
+
+// console.log(my_arr)
 
 
+// flat()
+// let my_arr=[12,78,[34,90,[78,90,76,['a','b','c']]],[7,90,10,[7800]]];
+// let res=my_arr.flat(Infinity)
+// console.log(res)
+
+// let my_arr=[12,78,,,,,5,,,,,6,,,7,,8,,,888,,,888];
+// let res=my_arr.flat()
+// console.log(res)
+
+// some()
+// let stu_marks=[10,20,30,40,50,60]
+// let res=stu_marks.some(a=>a>50)
+// console.log(res)
+
+// let stu_marks=[10,11,20,30,40,50,60]
+// let res=stu_marks.find(a=>a<10)
+// console.log(res)
+
+// Array Structuring and Destructuring . (... rest operators)
+
+// Array Dstructuring : This refers to extracting values from an array into various variable.
+// let arr="789dfdsd"
+// let my_new=[...arr]
+// console.log(my_new.length)
+
+// basic stru
+// let fruits=["apple","mango","banana","grapes","lemon"]
+// let [a,b,c]=fruits;
+// console.log(a)
+// console.log(b)
+// console.log(c)
+
+// skkiping values
+// let fruits=["apple","mango","banana","grapes","lemon"]
+// let [a,b,,c]=fruits;
+// console.log(a)
+// console.log(b)
+// console.log(c)
+// console.log(d)
+
+// Default value
+// let [x=0,y=0,z=0]=[100,230,780];
+// console.log(x)
+// console.log(y)
+// console.log(z)
+
+// swapping values
+// let x=5 , y=10;
+// [x,y]=[y,x];
+// console.log(x)
+// console.log(y)
+
+// function getadd(){
+//     return [20,30,40,50,90]
+// }
+// let [a,,b,,c]=getadd()
+// console.log(a+b+c);
+
+let data="protien"
 
 
 
