@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button   id="its_show">Show me</button>
+    <input id="box" type="text">
+    <div id="text"></div>
+
+
+    <script>
+        let data=document.getElementById('its_show');
+        data.disabled=true;
+        data.addEventListener('click',function(){
+            document.writeln("How are you")
+        })
+
+        data.addEventListener('keypress',function(){
+            document.writeln("i AM HOVERING")
+        })
+        
+
+        let box=document.getElementById("box")
+        let text=document.getElementById("text")
+        box.addEventListener('input',()=>{
+            data.disabled=false;
+            let val=document.getElementById("box").value;
+            text.innerText=val
+        })
+
+
+        // setTimeout(() => {
+        //     document.getElementById('its_show').disabled=true
+
+        // }, 2000);
+    </script>
+</body>
+</html>
