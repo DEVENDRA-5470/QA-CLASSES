@@ -56,4 +56,83 @@ cloumn => Information stored in which types.
 -- DECIMAL FAMILY
 -- DATETIME FAMILY
 -- BOOLEAN FAMILY
+
+
+
+
+# What is database ?
+-- A database is logical space inside a computer system
+-- where data stored in an organized , structured form sot
+-- it can efficiently accessed managed update using DBMS. 
+
+# Type of database
+1.Relational database (RDBMS):
+	Store data in tabular form (rows and cols)
+    Uses SQL (structured Query language)
+    Data is structured and relationships are difine using keys(FK,PK)
+    Examples : MySQL,PostgreSQL,Orace,Microsoft SQL server.
+    
+2.Non-Relational Database(Non-RDBMS(NoSQL)).
+	Store data in Documented from (key:value).
+    Uses Programtic language.
+    Data is structured and realations are difine in graph style.
+    Examples : MongoDb,CouchDB,ArangoDB,Redis,DynamoDB.
+    
+3.Hierachical Database
+4.Network Database
+5.Object-oriented Database
+6.Time-Series Database.
+7.Cloud Database.
+
+-- MYSQL (SQL)
+row=> Information of a pariticular entity.
+cloumn => Information stored in which types.
+
+-- Data Types
+-- Number Family
+1.TINYINT 		1BYTE		 0-255 (unsigned)
+2.SMALLINT 		2BYTES		 0-65,535
+3.MEDIUMINT 	3BYTES		 0-16,777,215 (16 Million aprx)
+4.INT/INTEGER 	4BYTES		 0-4,294,967,295 (4 billion appr)
+5.BIGINT    	8BYTES		 0-18,446,744,073,709,551,615(18trillion aapr)
+
+-- Text Family 
+| Data Type  | Overhead | Max Length (Characters) | Max Length (Bytes)         |
+| ---------- | -------- | ----------------------- | -------------------------- |
+| TINYTEXT   | 1 byte   | 255                     | 255 bytes                  |
+| TEXT       | 2 bytes  | 65,535                  | 65,535 bytes               |
+| MEDIUMTEXT | 3 bytes  | 16,777,215              | 16 MB (16,777,215 bytes)   |
+| LONGTEXT   | 4 bytes  | 4,294,967,295           | 4 GB (4,294,967,295 bytes) |
+| CHAR(15)    | 0 bytes overhead (fixed) | 15 characters           | 15 bytes (if 1-byte characters like ASCII) |
+| VARCHAR(20) | 1–2 bytes                | 20 characters           | 20 bytes + 1/2 bytes overhead              |
+
+
+-- BLOB FAMILY
+| Data Type      | Overhead | Max Size (Bytes)           | Description                  |
+| -------------- | -------- | -------------------------- | ---------------------------- |
+| TINYBLOB  | 1 byte   | 255 bytes                  | Small binary objects         |
+| BLOB      | 2 bytes  | 65,535 bytes (64 KB)       | Standard binary large object |
+| MEDIUMBLOB | 3 bytes  | 16,777,215 bytes (16 MB)   | Medium-sized BLOB            |
+| LONGBLOB   | 4 bytes  | 4,294,967,295 bytes (4 GB) | Very large binary objects    |
+
+-- DECIMAL FAMILY
+-- DATETIME FAMILY
+-- BOOLEAN FAMILY
+
+-- Constraints : Constraints are apply on table schema to insure data integrity.
+-- PRIMARY KEY = UNIQUE + NOT NULL
+-- FOREIGN KEY = Establish realtion between multiple tables.
+-- UNIQUE = Avoid Duplication
+-- NULL = Can be empty.
+-- NOT NULL = Can not be remains empty.
+-- DEFAULT = Used for set default values to the columns.
+-- CHECK = Conditinal check
+-- AUTO_INCREMENT = Used to assign uniuqe number.
+
+-- QUERY CATEGORY
+-- DDL  
+-- DML 
+-- DCL 
+-- TCL
+ 
  
